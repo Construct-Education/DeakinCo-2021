@@ -2858,6 +2858,10 @@ h2, h3, h4 {
     text-transform: uppercase;
 }
 
+ul::marker {
+    color: #0086C8;
+}
+
 .main-page-banner--container {
     .main-page-banner {
         width: 100%;
@@ -2947,6 +2951,27 @@ h2, h3, h4 {
   .blockquote h4:first-letter {
     margin-left:-12px;
   }
+
+.objectives-block--outer{
+    padding: 30px 20px;
+    background: #FBAD1A;
+    background: url("https://proversity.instructure.com/courses/1649/files/136270/preview") top left;
+    color: #000000;
+    margin: 0 20px;
+    .objectives-block--heading{
+
+    }
+    .objectives-block--desc{
+
+    }
+    .objectives-block--bullet-points {
+
+    }
+}
+
+
+
+
 /********************************************************************************
  * END -  CONSTRUCT EDITS
 *********************************************************************************/
