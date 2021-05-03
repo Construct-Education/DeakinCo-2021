@@ -3127,6 +3127,11 @@ ul.tab-trigger-list li {
 h2, h3, h4 {
   font-family: 'Barlow Condensed', sans-serif !important;
   text-transform: uppercase;
+  font-weight: 900;
+}
+
+.accordion-title {
+  font-family: 'Barlow Condensed', sans-serif !important;
 }
 
 /********************************************************************************
