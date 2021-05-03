@@ -2887,8 +2887,8 @@ ul::marker {
       font-family: 'Barlow Condensed', sans-serif;
       position: relative; /* for pseudos */
       color: #4F9F87;
-      font-size: 40px;
-      font-weight: 900;
+      font-size: 36px;
+      font-weight: 400;
       line-height: 1;
       margin: 0;
       border: 2px solid #fff;
@@ -2897,41 +2897,9 @@ ul::marker {
       padding: 25px;
   }
   
-  /* Blockquote right double quotes */
-  .blockquote h1:after {
-      content:"";
-      position: absolute;
-      border: 2px solid #4F9F87;
-      border-radius: 0 50px 0 0;
-      width: 60px;
-      height: 60px;
-      bottom: -62px;
-      left: 50px;
-      border-bottom: none;
-      border-left: none;
-      z-index: 3; 
-  }
+
   
-  .blockquote h1:before {
-      content:"";
-      position: absolute;
-      width: 80px;
-      border: 6px solid #ffffff;
-      bottom: -3px;
-      left: 50px;
-      z-index: 2;
-  }
-  
-  /* increase header size after 600px */
-  @media all and (min-width: 600px) {
-      .blockquote h1 {
-          font-size: 36px;
-          text-transform: none;
-          font-weight: 400;
-          line-height: 1.2;
-     }
-  
-  }
+
   
   /* Blockquote subheader */
   .blockquote h4 {
@@ -2943,7 +2911,7 @@ ul::marker {
       margin: 0;
       padding-top: 15px;
       z-index: 1;
-      margin-left:150px;
+      margin-left:25px;
       padding-left:12px;
   }
   
@@ -2957,7 +2925,7 @@ ul::marker {
     background: #FBAD1A;
     background: url("https://proversity.instructure.com/courses/1649/files/136270/preview") top left;
     color: #000000;
-    margin: 0 20px;
+    margin: 0 20px 30px;
     .objectives-block--heading{
 
     }
