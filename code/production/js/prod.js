@@ -19,6 +19,6 @@
         document.getElementsByTagName("head")[0].appendChild(script);
     }
 
-    loadScript("https://combinatronics.com/Construct-Education/DeakinCo-2021/main/code/js/main.js?token=AP6AB6WNAL7U5KWNNRSUCHDAR66ZE", function () { 
+    loadScript("https://combinatronics.com/Construct-Education/DeakinCo-2021/main/code/js/main.js", function () { 
     });
 })();
