@@ -3130,6 +3130,17 @@ h1, h2, h3, h4 {
   font-weight: 900;
 }
 
+.module-sequence-footer-button--next > a, .module-sequence-footer-button--previous > a {
+  background: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.module-sequence-footer-button--next > a:hover, .module-sequence-footer-button--previous > a:hover {
+  background: #4F9F87;
+  color: #000000;
+}
+
 .accordion-title {
   font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 15px;
