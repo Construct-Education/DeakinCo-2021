@@ -3202,12 +3202,12 @@ ul::marker {
   margin: 20px;
 }
 
-.module-activities-block--outer {
+.module-activities-overview-block--outer {
   margin: 20px;
 }
 
 .navigational-text {
-  margin: 20px 0;
+  margin: 20px 0 !important;
   font-style: italic;
 }
 
