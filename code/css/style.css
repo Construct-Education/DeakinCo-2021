@@ -3144,7 +3144,7 @@ ul::marker {
   margin-bottom: 30px;
 }
 
-.show-content.user_content:last-child, .show-content.user_content:nth-child(1) {
+.show-content.user_content .user_content.container.enhanced:last-child, .show-content.user_content .user_content.container.enhanced:nth-child(1) {
   margin-bottom: 0;
 }
 

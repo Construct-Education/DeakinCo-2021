@@ -2864,10 +2864,11 @@ ul::marker {
 .show-content.user_content {
 .user_content.container.enhanced {
     margin-bottom: 30px;
+    &:last-child, &:nth-child(1) {
+        margin-bottom: 0;
+    }
 }
-&:last-child, &:nth-child(1) {
-    margin-bottom: 0;
-}
+
 }
 
 .main-page-banner--container {
