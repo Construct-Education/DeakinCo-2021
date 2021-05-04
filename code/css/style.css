@@ -3144,7 +3144,7 @@ ul::marker {
   margin-bottom: 30px;
 }
 
-.show-content.user_content:last-child {
+.show-content.user_content:last-child, .show-content.user_content:nth-child(1) {
   margin-bottom: 0;
 }
 
@@ -3162,7 +3162,7 @@ ul::marker {
   position: relative;
   font-family: 'Barlow Condensed', sans-serif;
   max-width: 620px;
-  margin: 20px auto;
+  margin: 0px auto;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;

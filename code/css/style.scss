@@ -2865,7 +2865,7 @@ ul::marker {
 .user_content.container.enhanced {
     margin-bottom: 30px;
 }
-&:last-child {
+&:last-child, &:nth-child(1) {
     margin-bottom: 0;
 }
 }
@@ -2886,7 +2886,7 @@ ul::marker {
       position: relative;
       font-family: 'Barlow Condensed', sans-serif;
       max-width: 620px;
-      margin: 20px auto;
+      margin: 0px auto;
       align-self: center;
   }
   
