@@ -2862,8 +2862,11 @@ ul::marker {
     color: #0086C8;
 }
 
-.main-page-banner--container {
+.user_content.container.enhanced {
     margin-bottom: 30px;
+}
+
+.main-page-banner--container {
     .main-page-banner {
         width: 100%;
     }
@@ -2879,7 +2882,7 @@ ul::marker {
       position: relative;
       font-family: 'Barlow Condensed', sans-serif;
       max-width: 620px;
-      margin: 50px auto;
+      margin: 20px auto;
       align-self: center;
   }
   
@@ -2943,7 +2946,7 @@ ul::marker {
 }
 
 .navigational-text{
-    margin: 20px 0 !important;
+    margin: 20px 0 0 !important;
     font-style: italic;
 }
 
