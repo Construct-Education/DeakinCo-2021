@@ -2861,9 +2861,13 @@ h1, h2, h3, h4 {
 ul::marker {
     color: #0086C8;
 }
-
+.show-content.user_content {
 .user_content.container.enhanced {
     margin-bottom: 30px;
+}
+&:last-child {
+    margin-bottom: 0;
+}
 }
 
 .main-page-banner--container {

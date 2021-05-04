@@ -3140,8 +3140,12 @@ ul::marker {
   color: #0086C8;
 }
 
-.user_content.container.enhanced {
+.show-content.user_content .user_content.container.enhanced {
   margin-bottom: 30px;
+}
+
+.show-content.user_content:last-child {
+  margin-bottom: 0;
 }
 
 .main-page-banner--container .main-page-banner {
