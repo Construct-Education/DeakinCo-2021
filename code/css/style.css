@@ -3140,6 +3140,10 @@ ul::marker {
   color: #0086C8;
 }
 
+.main-page-banner--container {
+  margin-bottom: 30px;
+}
+
 .main-page-banner--container .main-page-banner {
   width: 100%;
 }
